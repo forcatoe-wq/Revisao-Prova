@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Veterinária Amigo Pet</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>    
+<body>
+<main>
+ <header>
+    <h1>Agendamento de Consulta</h1>
+  </header>
+<section>
+    <div class="cartao">
+    <div class="area-imagem">
+        <img 
+          src="images.jpg"
+          alt="Fachada de entrada com estacionamento para Clientes" 
+          class="foto-destaque"
+        >
+        <p>Cuide da saúde do seu melhor amigo com carinho</p>
+    </div>
+<form>
+        <p>
+          <label for="nome-usuario">Seu Nome:</label>
+          <input type="text" id="nome-usuario" minlength="3" aria-describedby="Eduardo Forcato" placeholder="Digite o nome completo do responsável" riquired>
+        </p>
+         <p>
+        <label for="email">Seu E-mail:</label>
+        <input type="email" id="email" placeholder="EX: forcato.e@gmail.com" required>
+        </p>
+</form>
+ <fieldset>
+          <legend>Espécie do Animal:</legend>
+          <input type="radio" id="op1" name="escolha" value="opcao1">
+          <label for="op1">Cachorro</label><br>
+          <input type="radio" id="op2" name="escolha" value="opcao2">
+          <label for="op2">Gato</label>
+        </fieldset>
+        <fieldset>
+          <legend>Serviços Desejados:</legend>
+          <input type="checkbox" id="check1" name="extras" value="item1">
+          <label for="check1">Banho e Tosa</label><br>
+          <input type="checkbox" id="check2" name="extras" value="item2">
+          <label for="check2">Vacinação</label>
+         </fieldset>
+ <button type="submit">Agendar Consulta</button>
+</section>
+</main>
+ <footer>
+    <p>Clínica Amigo Pet - Atendimento Acessível 2026</p>
+  </footer>
+</body>
+</html>
